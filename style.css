@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:  'Franklin Gothic Medium', Arial, sans-serif;
 } 
 :root {
     --h5-color: lightseagreen;
     --h1-color: rgba(0, 52, 49, 0.772);
 }
-
+p {
+    font-family: fantasy;
+}
 body {
     background-color: #f2f2f2;
 }
@@ -73,7 +76,7 @@ header > div > i {
     display: none;
 }
 
-
+/* //block1  */
 .hero {
     width: 100%;
     background-color: lightgreen;
@@ -86,8 +89,9 @@ header > div > i {
     margin: auto;
     width: 50%;
     height: 25vh;
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 10px 0;
 }
 .container h1 {
@@ -105,7 +109,7 @@ header > div > i {
     border-radius: 12px;
 }
 
-
+/* //block2  */
 .mission {
     margin: 20px auto;
     width: 80%;
@@ -128,6 +132,9 @@ header > div > i {
     text-wrap: balance;
 }
 
+
+
+/* //block3 */
 .culture {
     padding: 20px;
     margin: 30px auto;
@@ -160,7 +167,6 @@ header > div > i {
     padding-left: 10px;
     font-size: 18px;
     text-wrap: balance;
-    font-weight: 300;
 }
 .culture img {
     width: 30%;
@@ -168,6 +174,8 @@ header > div > i {
     border-radius: 50%;
 }
 
+
+/* //block4 */
 .sus {
     padding: 20px;
     margin: 30px auto;
@@ -200,7 +208,6 @@ header > div > i {
     padding-left: 10px;
     text-wrap: balance;
     font-size: 18px;
-    font-weight: 300;
 }
 
 .sus img {
