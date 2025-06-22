@@ -278,13 +278,13 @@ header > div > i {
   }
   /* For webkit-based browsers (Chrome, Safari, Edge) */
   ::-webkit-scrollbar {
-    width: 8px; /* vertical scrollbar */
-    height: 8px; /* horizontal scrollbar */
+    width: 10px; /* vertical scrollbar */
+    height: 10px; /* horizontal scrollbar */
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: #888; /* color of the scroll thumb */
-    border-radius: 4px;
+    background-color: #f14e4e; /* color of the scroll thumb */
+    border-radius: 6px;
   }
 
   ::-webkit-scrollbar-track {
