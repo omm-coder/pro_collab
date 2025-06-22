@@ -151,32 +151,32 @@ header > div > i {
   gap: 40px;
 }
 
-.culture > div {
+.info {
   width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.culture > div h5 {
+.info h5 {
   color: var(--h5-color);
   font-weight: 400;
   font-size: 18px;
   padding-left: 15px;
 }
-.culture > div h1 {
+.info h1 {
   margin-bottom: 10px;
   padding-left: 10px;
   text-wrap: pretty;
   color: var(--h1-color);
   font-size: clamp(1.5rem, 2vw, 2.5rem);
 }
-.culture > div p {
+.info p {
   margin-bottom: 10px;
   padding-left: 10px;
   font-size: 18px;
   text-wrap: balance;
 }
-.culture img {
+#round_img {
   width: 30%;
   aspect-ratio: 1/1;
   border-radius: 50%;
@@ -190,38 +190,12 @@ header > div > i {
   display: flex;
   gap: 40px;
 }
-
 .sus > div {
   width: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.sus > div h5 {
-  color: var(--h5-color);
-  font-weight: 400;
-  font-size: 18px;
-  padding-left: 15px;
-}
-.sus > div h1 {
-  margin-bottom: 10px;
-  padding-left: 10px;
-  text-wrap: balance;
-  color: var(--h1-color);
-  font-size: clamp(1.5rem, 2vw, 2.5rem);
-}
-.sus > div p {
-  margin-bottom: 10px;
-  padding-left: 10px;
-  text-wrap: balance;
-  font-size: 18px;
 }
 
-.sus img {
-  width: 30%;
-  aspect-ratio: 1/1;
-  border-radius: 50%;
-}
+
+
 
 /* //media queries//  */
 
