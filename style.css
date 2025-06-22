@@ -29,10 +29,14 @@ header {
   align-items: center;
   padding: 10px clamp(40px, 7vw, 100px);
 }
-header .nav_Logo {
+header > div {
   display: flex;
   align-items: center;
 }
+/* header .nav_Logo {
+  display: flex;
+  align-items: center;
+} */
 header .nav_Logo h1 {
   font-size: 2rem;
 }
@@ -60,10 +64,7 @@ nav ul li a:hover {
   background-color: orange;
   border-radius: 12px;
 }
-header > div {
-  display: flex;
-  align-items: center;
-}
+
 header > div > button {
   border: none;
   padding: 10px 22px;
