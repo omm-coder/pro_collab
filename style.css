@@ -5,18 +5,21 @@
     font-family:  'Franklin Gothic Medium', Arial, sans-serif;
 } 
 :root {
+    --primary-bg-color: #f2f2f2;
+    --secod-bg-color: #d6f8f8;
     --h5-color: lightseagreen;
     --h1-color: rgba(0, 52, 49, 0.772);
+    --hero-h1-color: #e4f1f1;
 }
 p {
     font-family: fantasy;
 }
 body {
-    background-color: #f2f2f2;
+    background-color: var(--primary-bg-color);
 }
 
 header {
-    background-color: #d6f8f8;
+    background-color: var(--secod-bg-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,8 +100,8 @@ header > div > i {
 }
 .container h1 {
     font-size: clamp(2rem, 4.5vw, 4rem);
-    font-weight: bold;
-    color: var(--h1-color);
+    font-weight: bolder;
+    color: var(--hero-h1-color);
     text-wrap: pretty;
 }
 
