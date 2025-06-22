@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+:root {
+    --h5-color: lightseagreen;
+    --h1-color: rgba(0, 52, 49, 0.772);
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #d6f8f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px clamp(40px, 7vw, 100px);
+
+}
+header .nav_Logo {
+    display: flex;
+    align-items: center;
+}
+header .nav_Logo h1 {
+    font-size: 2rem;
+}
+nav {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: #120e0e;
+    padding: 8px 12px;
+    transition: all .4s ease-in-out;
+}
+nav ul li a:hover {
+    background-color: orange;
+    border-radius: 12px;
+}
+header > div {
+    display: flex;
+    align-items: center;
+} 
+header > div > button {
+    border: none;
+    padding: 10px 22px;
+    font-size: 18px;
+    background-color: orange;
+    border-radius: 12px;
+}
+.signIn {
+    background-color: transparent;
+}
+header > div > i {
+    font-size: 28px;
+    padding-left: 12px;
+}
+.icon {
+    display: none;
+}
+
+
+.hero {
+    width: 100%;
+    background-color: lightgreen;
+    height: 50vh;
+    position: relative;
+}
+.container {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 50%;
+    height: 25vh;
+    display: grid;
+    place-items: center;
+    gap: 10px 0;
+}
+.container h1 {
+    font-size: clamp(2rem, 3vw, 4rem);
+    font-weight: bold;
+    color: var(--h1-color);
+    text-wrap: pretty;
+}
+
+.container > button {
+    border: none;
+    padding: .8em 1.8em;
+    font-size: clamp(12px,  1.3vw, 18px);
+    background-color: orange;
+    border-radius: 12px;
+}
+
+
+.mission {
+    margin: 20px auto;
+    width: 80%;
+}
+.mission .div {
+    margin-left: 20%;
+}
+.div h5 {
+    color: var(--h5-color);
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.div h1 {
+    margin-bottom: 10px;
+    color: var(--h1-color);
+    text-wrap: balance;
+}
+.div p {
+    text-wrap: balance;
+}
+
+.culture {
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    display: flex;
+    gap: 40px;
+}
+
+.culture > div {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.culture > div h5 {
+    color: var(--h5-color);
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.culture > div h1 {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    text-wrap: pretty;
+    color: var(--h1-color);
+    font-size: clamp(1.5rem, 2vw, 2.5rem);
+}
+.culture > div p {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    text-wrap: balance;
+}
+.culture img {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.sus {
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    display: flex;
+    gap: 40px;
+}
+
+.sus > div {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sus > div h5 {
+    color: var(--h5-color);
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.sus > div h1 {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    text-wrap: balance;
+    color: var(--h1-color);
+    font-size: clamp(1.5rem, 2vw, 2.5rem);
+}
+.sus > div p {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    text-wrap: balance;
+    font-size: 18px;
+}
+
+.sus img {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+
+
+/* //media queries//  */
+/* @media screen and (max-width: 390px){
+    header .nav_logo nav {
+        display: none;
+    }
+    header > div:nth-of-type(2) button{
+        display: none;
+    }
+    header .nav_Logo h1 {
+    }
+} */
+@media screen and ((min-width: 300px) and (max-width: 600px)) {
+
+    header .nav_logo nav {
+        display: none;
+    }
+
+    header > div:nth-of-type(2) > button {
+        display: none;
+    }
+    .icon {display: block;}
+
+    .mission {
+        width: 100%;
+
+    }
+    .mission .div {
+        margin-left: 5%;
+    }
+
+    .culture { 
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px; 
+    }
+
+    .culture > div {
+        width: 100%;
+    }
+
+    .culture img {
+        width: 80%;
+        border-radius: 12px;
+    }
+
+    .sus { 
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 10px; 
+    }
+
+    .sus > div {
+        width: 100%;
+    }
+
+    .sus img {
+        width: 80%;
+        border-radius: 12px;
+    }
+    
+}
+
+@media screen and ((min-width: 601px) and (max-width: 912px)) {
+
+    header .nav_logo nav {
+        display: none;
+    }
+    header > div:nth-of-type(2) {
+        gap: 0 20px;
+    }
+    .icon {display: block;}
+
+    .mission {
+        width: 90%;
+    }
+    .mission .div {
+        margin-left: 10%;
+    }
+
+    .culture { 
+        flex-direction: column;
+        align-items: center;
+        padding: 10px; 
+    }
+
+    .culture > div {
+        width: 100%;
+    }
+
+    .culture img {
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    .sus { 
+        flex-direction: column;
+        align-items: center;
+        padding: 10px; 
+    }
+
+    .sus > div {
+        width: 100%;
+    }
+
+    .sus img {
+        width: 100%;
+        border-radius: 12px;
+    }
+    
+}
