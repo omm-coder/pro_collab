@@ -207,7 +207,7 @@ header > div > i {
 }
 
 @media screen and ((min-width: 300px) and (max-width: 600px)) {
-  header .nav_logo nav {
+  header .nav_and_logo nav {
     display: none;
   }
 
@@ -235,11 +235,11 @@ header > div > i {
     padding: 10px;
   }
 
-  .culture > div {
+  .info {
     width: 100%;
   }
 
-  .culture img {
+  #round_img {
     width: 80%;
     border-radius: 12px;
   }
@@ -255,10 +255,6 @@ header > div > i {
     width: 100%;
   }
 
-  .sus img {
-    width: 80%;
-    border-radius: 12px;
-  }
   /* For webkit-based browsers (Chrome, Safari, Edge) */
   ::-webkit-scrollbar {
     width: 10px; /* vertical scrollbar */
@@ -276,7 +272,7 @@ header > div > i {
 }
 
 @media screen and ((min-width: 601px) and (max-width: 912px)) {
-  header .nav_logo nav {
+  header .nav_and_logo nav {
     display: none;
   }
   header > div:nth-of-type(2) {
@@ -299,11 +295,11 @@ header > div > i {
     padding: 10px;
   }
 
-  .culture > div {
+  .info {
     width: 100%;
   }
 
-  .culture img {
+  #round_img {
     width: 100%;
     border-radius: 12px;
   }
@@ -316,10 +312,5 @@ header > div > i {
 
   .sus > div {
     width: 100%;
-  }
-
-  .sus img {
-    width: 100%;
-    border-radius: 12px;
   }
 }
