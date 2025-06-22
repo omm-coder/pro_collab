@@ -249,6 +249,7 @@ header > div > i {
     flex-direction: column-reverse;
     align-items: center;
     padding: 10px;
+    margin-bottom: 20px;
   }
 
   .sus > div {
@@ -308,6 +309,7 @@ header > div > i {
     flex-direction: column;
     align-items: center;
     padding: 10px;
+    margin-bottom: 20px;
   }
 
   .sus > div {
