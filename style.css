@@ -29,19 +29,18 @@ header {
   align-items: center;
   padding: 10px clamp(40px, 7vw, 100px);
 }
+
 header > div {
   display: flex;
   align-items: center;
 }
-header .nav_Logo {
-  display: flex;
-  align-items: center;
-}
-header .nav_Logo h1 {
+
+header .nav_and_logo h1 {
   font-size: 2rem;
 }
+
 nav {
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 10px;
 }
 nav ul {
@@ -57,13 +56,14 @@ nav ul li a {
   font-size: 1.2rem;
   text-transform: capitalize;
   color: var(--primary-color);
-  padding: 8px 12px;
+  padding: 8px 10px;
   transition: all 0.4s ease-in-out;
 }
 nav ul li a:hover {
   background-color: orange;
   border-radius: 12px;
 }
+
 
 header > div > button {
   border: none;
