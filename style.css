@@ -224,6 +224,13 @@ header > div > i {
 
 /* //media queries//  */
 
+/* Always use light mode styles */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--primary-bg-color);
+  }
+}
+
 @media screen and ((min-width: 300px) and (max-width: 600px)) {
   header .nav_logo nav {
     display: none;
