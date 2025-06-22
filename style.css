@@ -33,10 +33,10 @@ header > div {
   display: flex;
   align-items: center;
 }
-/* header .nav_Logo {
+header .nav_Logo {
   display: flex;
   align-items: center;
-} */
+}
 header .nav_Logo h1 {
   font-size: 2rem;
 }
