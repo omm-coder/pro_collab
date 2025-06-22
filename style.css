@@ -160,6 +160,7 @@ header > div > i {
     padding-left: 10px;
     font-size: 18px;
     text-wrap: balance;
+    font-weight: 300;
 }
 .culture img {
     width: 30%;
@@ -199,6 +200,7 @@ header > div > i {
     padding-left: 10px;
     text-wrap: balance;
     font-size: 18px;
+    font-weight: 300;
 }
 
 .sus img {
