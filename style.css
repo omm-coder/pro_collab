@@ -219,16 +219,7 @@ header > div > i {
 
 
 /* //media queries//  */
-/* @media screen and (max-width: 390px){
-    header .nav_logo nav {
-        display: none;
-    }
-    header > div:nth-of-type(2) button{
-        display: none;
-    }
-    header .nav_Logo h1 {
-    }
-} */
+
 @media screen and ((min-width: 300px) and (max-width: 600px)) {
 
     header .nav_logo nav {
